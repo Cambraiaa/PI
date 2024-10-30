@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Hospital</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login - Hospital</h1>
+        <form id="login-form">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="role">Tipo de usuário:</label>
+            <select id="role" name="role" required>
+                <option value="paciente">Paciente</option>
+                <option value="medico">Médico</option>
+            </select>
+            <button type="submit">Entrar</button>
+            <button type="button" id="register-button">Não tem conta? - Cadastrar</button>
+        </form>
+        <p id="error-message"></p>
+    </div>
+
+    <script src="Untitled-3.js"></script>
+</body>
+</html>
